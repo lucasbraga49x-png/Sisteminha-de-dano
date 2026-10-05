@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Adventure</title>
+</head>
+<body>
+    <div class="ContainerGameplay">
+     <img src="Aventureiro.png" alt="Aventureiro" id="player">
+     <img src="Monstro.png" alt="Slime" id="Monstro">
+    </div>
+    <div class="ContainerStatus">
+     <div class="StatusPlayer">
+     <h2>Aventureiro</h2>
+     <p>Vida: <span id="vidaPlayer"></span></p>
+     <span id="danoPlayer">Dano: 40</span>
+     </div>
+     <div class="StatusMonstro">
+        <h2>Slime</h2>
+      <p>Vida: <span id="vidaMonstro"></span></p>
+     <span id="danoMonstro">Dano: 20</span>
+     </div>
+    </div>
+    <div class="botoes">
+        <button id="ataqueAventureiro">Atacar slime</button>
+        <button id="ataqueSlime">Atacar aventureiro</button>
+    </div>
+</body>
+</html>
