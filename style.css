@@ -16,7 +16,7 @@ body{
 .ContainerGameplay{
     width: 60%;
     min-height: 100px;
-    padding: 30px;
+    position: relative;
     display: flex;
     background-image: url("cenario.jpg");
     border-radius: 20px;
@@ -78,3 +78,16 @@ button:hover{
     transform: translateY(-2px);
 }
 
+.divNotificacao{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.663);
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    z-index: 999;
+    height: 100%;
+}
+.divNotificacao h1{
+   font-size: 40px;
+}
